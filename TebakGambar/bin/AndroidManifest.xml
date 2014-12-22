@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saya.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BiayaActivity"
+            android:label="@string/title_activity_biaya" >
+        </activity>
+        <activity
+            android:name=".JejakaActivity"
+            android:label="@string/title_activity_jejaka" >
+        </activity>
+        <activity
+            android:name=".KecualiActivity"
+            android:label="@string/title_activity_kecuali" >
+        </activity>
+        <activity
+            android:name=".KodeActivity"
+            android:label="@string/title_activity_kode" >
+        </activity>
+        <activity
+            android:name=".KodActivity"
+            android:label="@string/title_activity_kod" >
+        </activity>
+        <activity
+            android:name=".MotivasiActivity"
+            android:label="@string/title_activity_motivasi" >
+        </activity>
+        <activity
+            android:name=".NotaActivity"
+            android:label="@string/title_activity_nota" >
+        </activity>
+        <activity
+            android:name=".ObesitasActivity"
+            android:label="@string/title_activity_obesitas" >
+        </activity>
+        <activity
+            android:name=".PenyuActivity"
+            android:label="@string/title_activity_penyu" >
+        </activity>
+        <activity
+            android:name=".PerangActivity"
+            android:label="@string/title_activity_perang" >
+        </activity>
+        <activity
+            android:name=".SelesaiActivity"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+    </application>
+
+</manifest>
